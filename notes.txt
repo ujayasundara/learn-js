@@ -1,0 +1,5 @@
+Use a extension call Live Server and enable auto save to sync code changes in 
+the browser faster
+
+Just type doc to generate basic HTML
+
