@@ -1,5 +1,62 @@
 Use a extension call Live Server and enable auto save to sync code changes in 
-the browser faster
+the browser faster.
 
-Just type doc to generate basic HTML
+Just type doc to generate basic HTML.
 
+1 Script Tags
+
+<script src="index.js"></script> <= At the bottom of the body.
+
+2 Console Output
+
+console.log("Hello World");
+
+3 Variables
+
+Three ways to crate variables => var, let, const
+var is global so we are not using it now.
+let can reassign
+const is constants 
+
+4 Data Types
+
+primitive data types => String, Number, Boolean, null, undefined, Symbol 
+console.log(typeof(variableName))
+
+5 Strings & String Methods
+
+Concatenation
+    'String 1' + var + 'String 2' <= old way
+    'String 1 ${var} String 2'
+
+String Methods
+    String s = 'Hello';
+    s.length();
+    There are lot of String methods.
+
+6 Arrays
+
+const number = new Array(1,2,3,4,5); <= not use often
+const number = [1,2,3,4,5,'StringValue'];
+number.push('New Element');
+There are lot of Array methods.
+
+
+7 Object Literals
+
+const person = {
+    
+}
+8 Arrays Of Objects & JSON
+9 Loops
+10 High Order Array Methods
+11 Conditionals
+12 Functions
+13 Arrow Functions
+14 Constructor Functions & Prototypes
+15 ES6 Classes
+16 Window Object & DOM
+17 DOM Selection
+18 Manipulating The DOM
+19 Events
+20 Form Script
