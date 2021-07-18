@@ -129,24 +129,71 @@ const filteredPerson = listOfPersons.filter(function(p){
 console.log(filteredPerson); */
 
 // 11 Conditionals
-
-const x = 10;
+//if else if else
+/* const x = 10;
 
 if (x == 10) { // == => dose not match the data type 
                // === => match data type as well 
     console.log('x is 10');
 } else {
     console.log('x is not 10');
-}
+} */
 
 // Can use else if as well
 // Multiple condition => || && 
+// Turnery operators
+    //const color = x > 10 ? 'red' : 'blue';
 
+// switch 
+/* switch (key) {
+    case value:
+        
+        break;
 
+    default:
+        break;
+} */
+  
 // 12 Functions
+
+/* function addNumbers(num1, num2){
+    return num1 + num2;
+} */
+
 // 13 Arrow Functions
+/* const addNumber = (i,j) => {
+    return i + j;
+} */
+//const addNum = (i,j) => i + j;
+//If only one line no {} needed. Also return statement is valid only with {}
+
 // 14 Constructor Functions & Prototypes
+
+/* function Person(firstName, lastName, dob){ //P Caps 
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.dob = new Date(dob);//'8-9-1988' is a date object, we can use date methods on it.
+    // can add functions 
+    this.getBirthYear = function() {
+        return this.dob.getFullYear();
+    }
+} */
+
+// Instantiate object
+/* const person1 = new Person('John', 'Doe', '1988-9-9');
+console.log(person1.firstName);
+console.log(person1.getBirthYear()); */
+
+// Prototype
+/* Person.prototype.getBirthYear = function() {
+    return this.getFullYear();
+}  //we can define this under the above Person class and remove it from 
+the class. */
+
 // 15 ES6 Classes
+
+
+
 // 16 Window Object & DOM
 // 17 DOM Selection
 // 18 Manipulating The DOM
