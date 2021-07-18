@@ -42,7 +42,6 @@ const number = [1,2,3,4,5,'StringValue'];
 number.push('New Element');
 There are lot of Array methods. */
 
-
 // 7 Object Literals
 
 // Construct an object 
@@ -56,6 +55,7 @@ There are lot of Array methods. */
     }
 }
  */
+
 //Distract an object
 //const {firstName, lastName} = person; //<= Take element out from an object as variables.
 //const {firstName, lastName, address : {city}} = person;
@@ -110,6 +110,7 @@ for (const iterator of object) {
 } */
 
 // 10 High Order Array Methods
+
 // forEach, map, filter
 
 /* listOfPersons.forEach(function(person){
@@ -192,9 +193,25 @@ the class. */
 
 // 15 ES6 Classes
 
+/* class Person {
+    constructor(fname, lname, dob){
+        this.fname = fname;
+        this.lname = lname;
+        this.dob = new Date(dob);
+    }
 
+    getFname(){
+        return this.fname;
+    }
+    getBirthYear(){
+        return this.dob.getFullYear;
+    }
+} */
 
 // 16 Window Object & DOM
+
+
+
 // 17 DOM Selection
 // 18 Manipulating The DOM
 // 19 Events
