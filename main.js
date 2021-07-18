@@ -208,11 +208,53 @@ the class. */
     }
 } */
 
-// 16 Window Object & DOM
-
-
-
+// 16 Window Object & DOM(Document object model)
+//console.log(window);
+    
 // 17 DOM Selection
+
+//Single element selectors
+    //console.log(document.getElementById('my-form'));
+    //console.log(document.querySelector('.container'));
+//Multiple element selectors
+    //console.log(document.querySelectorAll('.item'));
+    //console.log(document.getElementsByClassName('item'));
+
 // 18 Manipulating The DOM
+
+//const ul = document.querySelector('.items');
+
+//ul.remove();
+//ul.lastElementChild.remove();
+//ul.firstElementChild.textContent = 'Hello';
+//const btn = document.querySelector('.btn');
+//btn.style.background = 'red';
+
 // 19 Events
+
+/* const btn = document.querySelector('.btn');
+btn.addEventListener('click',(e) => {//can use lot of events
+    e.preventDefault();
+    //console.log(e);
+    document.querySelector('#my-form').style.background = '#ccc';
+}) */
+
 // 20 Form Script
+
+/* const myForm = document.querySelector('#my-form');
+const nameInput = document.querySelector('#name');
+const emailInput = document.querySelector('#email');
+const msg = document.querySelector('.msg');
+const userList = document.querySelector('#users');
+
+myForm.addEventListener('submit', onsubmit);
+
+function onsubmit(e){
+    e.preventDefault();
+   
+    if(nameInput.value === '' || emailInput.value === ''){
+        alert('Please ')
+    } else {
+        console.log('Success');
+    }
+} */
